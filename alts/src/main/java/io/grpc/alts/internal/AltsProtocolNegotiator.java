@@ -249,7 +249,7 @@ public final class AltsProtocolNegotiator {
     }
   }
 
-  private static final class ClientTsiHandshakerFactory implements TsiHandshakerFactory {
+  public static final class ClientTsiHandshakerFactory implements TsiHandshakerFactory {
 
     private final ImmutableList<String> targetServiceAccounts;
     private final LazyChannel lazyHandshakerChannel;
